@@ -1,0 +1,28 @@
+.summary {
+	@include flex-mother(row, center, space-around);
+	margin: 3rem auto;
+	padding: 1.5rem 1rem;
+	width: 80%;
+	background-color: map-get($clr, 'clr-primary-pale-blue');
+	&__img {
+		filter: brightness(95%);
+	}
+	&__heading {
+		text-align: left;
+		flex-grow: 1;
+		padding-left: 2rem;
+	}
+	&__title {
+		color: map-get($clr, 'clr-neutral-dark-blue');
+	}
+	&__price {
+		color: map-get($clr, 'clr-neutral-desaturated-blue');
+	}
+	&__change {
+		&:link,
+		&:visited {
+			font-size: 1.3rem;
+			color: map-get($clr, 'clr-primary-bright-blue');
+		}
+	}
+}

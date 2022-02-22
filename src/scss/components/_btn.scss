@@ -1,0 +1,17 @@
+.btn {
+	@extend %btn;
+	width: 80%;
+	height: 4rem;
+	margin: 2rem auto;
+	border-radius: 1rem;
+	font-weight: 700;
+	color: map-get($clr, 'clr-neutral-very-pale-blue');
+	&--payment {
+		background-color: map-get($clr, 'clr-primary-bright-blue');
+		box-shadow: 0 3px 10px map-get($clr, 'clr-neutral-dark-blue');
+	}
+	&--cancel {
+		color: map-get($clr, 'clr-neutral-desaturated-blue');
+		background-color: transparent;
+	}
+}

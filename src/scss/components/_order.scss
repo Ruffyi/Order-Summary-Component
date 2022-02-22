@@ -1,0 +1,21 @@
+.order {
+	width: Min(35rem, 90%);
+	background-color: map-get($clr, 'clr-neutral-very-pale-blue');
+	z-index: 1;
+	border-radius: 1rem;
+	text-align: center;
+	&__image img {
+		border-radius: 1rem 1rem 0 0;
+	}
+	&__title {
+		margin: 2rem 0;
+		font-size: 2rem;
+		font-weight: 900;
+		color: map-get($clr, 'clr-neutral-dark-blue');
+	}
+	&__description {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: map-get($clr, 'clr-neutral-desaturated-blue');
+	}
+}
