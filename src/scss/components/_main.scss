@@ -1,0 +1,9 @@
+.main {
+	@include flex-mother();
+	position: relative;
+	min-height: 100vh;
+	background-color: map-get($clr, 'clr-primary-pale-blue');
+	&__overlay {
+		@include positioning();
+	}
+}

@@ -1,0 +1,29 @@
+:root {
+  font-size: 62.5%;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box; }
+
+.img {
+  display: block;
+  width: 100%; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+  background-color: #e0e8ff; }
+  .main__overlay {
+    position: absolute;
+    top: 0;
+    left: 0; }

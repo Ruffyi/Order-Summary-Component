@@ -4,3 +4,9 @@
 	align-items: $alignItems;
 	justify-content: $justifyContent;
 }
+
+@mixin positioning($pos: absolute, $top: 0, $left: 0) {
+	position: $pos;
+	top: $top;
+	left: $left;
+}
